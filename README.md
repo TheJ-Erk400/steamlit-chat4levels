@@ -47,18 +47,21 @@ Use secrets.toml an add your OpenAI API key or set your enviroment variable OPEN
 
 ```bash
 git clone https://github.com/thejerk400/steamlit-chat4levels.git
-cd streamly
+cd steamlit-chat4levels
 ```
 
 2. Create and activate a virtual environment (optional but recommended):
 ```bash
 python3 -m venv venv
-source venv/bin/activate # On Windows use venv\Scripts\activate
+source venv/bin/activate
+
+# On Windows use venv\Scripts\activate
 ```
 
 3. Install the required packages:
 
-```bash
+```
+bash
 pip install -r requirements.txt
 ```
 
@@ -66,7 +69,8 @@ pip install -r requirements.txt
 
 To run Streamly, execute the following command:
 
-```bash
+```
+bash
 streamlit run steamlit-chat4levels.py
 ```
 
